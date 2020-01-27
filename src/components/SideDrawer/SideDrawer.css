@@ -5,7 +5,8 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 5rem;
 }
 
 .side-drawer li {
@@ -13,9 +14,9 @@
 }
 
 .side-drawer a {
-  color: #521751;
+  color: white;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 .side-drawer a:hover,
@@ -28,14 +29,14 @@
     background-color: black;
     position: fixed;
     height: 100%;
-    width: 30%
+    width: 30%;
   }
 }
 
 @media (max-width: 768px) {
   .side-drawer {
     height: 100%;
-    background: white;
+    background: black;
     box-shadow: 1px 0px 7px rgba(0,0,0, 0.5);
     position: fixed;
     top: 0;

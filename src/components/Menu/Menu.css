@@ -3,9 +3,9 @@
   top: 0;
   left: 0;
   position: fixed;
-  background: #521751;
+  background: rgba(0, 0, 0, 0.08);
   height: 56px;
-  z-index: 100;
+  z-index: 200;
 }
 .menu__logo {
   margin-left: 1rem;

@@ -28,13 +28,14 @@ class App extends React.Component {
     return (
       <div className="flex-wrapper">
         <Menu drawerClickHandler={this.drawerToggleClickHandler} ></Menu>
-        <div classname="flex-wrapper">
+        <header>
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
           <main className="content">
+            <img className="hero-img" src="./hero-img.jpg" alt="Smiley face"></img>
             <p>Resize to mobile to view hamburger menu</p>
           </main>
-        </div>
+        </header>
 
 
       </div>

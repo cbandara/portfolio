@@ -5,9 +5,14 @@
 }
 
 .content {
-  margin-top: 64px;
   padding-left: 30%;
   text-align: center;
+  min-width: 70%;
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 400px;
 }
 
 @media (max-width: 768px) {
