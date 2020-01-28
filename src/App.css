@@ -1,13 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:400,600,700|Titillium+Web:300i,400,600&display=swap');
+
+h1 {
+  margin: 0;
+  color: white;
+  padding-top: 100px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 38px;
+}
+
+.subheading {
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-style: italic;
+}
+
+header {
+  height: 100%;
+}
+
 .flex-wrapper {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
+.flex-wrapper-2 {
+  min-height: 100vh;
+  display: flex;
+}
+
 .content {
-  padding-left: 30%;
   text-align: center;
-  min-width: 70%;
+  width: 100%;
 }
 
 .hero-img {
@@ -15,9 +39,34 @@
   max-height: 400px;
 }
 
+.section {
+  padding: 50px 0px;
+}
+
+.flex-parent-section {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-parent-section li {
+  padding: 20px 30px;
+}
+
+
 @media (max-width: 768px) {
   .content {
     padding-left: 0%;
     justify-content: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .flex-wrapper-2{
+    padding-left: 202px;
   }
 }

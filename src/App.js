@@ -2,7 +2,10 @@ import React from 'react';
 import Menu from './components/Menu/Menu';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+import Home from './components/Home/Home';
 import './App.css';
+
+
 
 class App extends React.Component {
   state = {
@@ -28,16 +31,15 @@ class App extends React.Component {
     return (
       <div className="flex-wrapper">
         <Menu drawerClickHandler={this.drawerToggleClickHandler} ></Menu>
-        <header>
-          <SideDrawer show={this.state.sideDrawerOpen} />
-          {backdrop}
+        <div className="flex-wrapper-2">
+          <header>
+            <SideDrawer show={this.state.sideDrawerOpen} />
+            {backdrop}
+          </header>
           <main className="content">
-            <img className="hero-img" src="./hero-img.jpg" alt="Smiley face"></img>
-            <p>Resize to mobile to view hamburger menu</p>
+            <Home></Home>
           </main>
-        </header>
-
-
+        </div>
       </div>
     );
   }
