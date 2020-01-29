@@ -20,3 +20,33 @@
 .core-img {
   width: 100px;
 }
+
+.projects-div {
+  background-color: rgba(0, 0, 0, 0.71);
+  height: 200px;
+  width: 300px;
+  color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: rgba(38, 38, 38, 0.88);
+  margin: 10px;
+  margin-bottom: 25px;
+}
+
+.projects-div:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.projects-div h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.projects-section {
+  background: #673AB7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}

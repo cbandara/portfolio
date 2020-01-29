@@ -7,6 +7,7 @@ import reactjs from '../../img/reactjs.png'
 import nodeimg from '../../img/nodejs.png'
 import jqueryimg from '../../img/jquery.png'
 import mongoimg from '../../img/mongodb.png'
+import fortnite from '../../img/fortnitelfg.png'
 
 class Home extends React.Component {
   render() {
@@ -47,14 +48,21 @@ class Home extends React.Component {
             </li>
           </ul>
         </div>
-        <div className="section">
+        <div className="section projects-section">
           <h2>Projects</h2>
           <ul className="flex-parent-section">
-            <li>Fortnite LFG</li>
-            <li>SimpleWeather</li>
-            <li>myInventory</li>
-            <li>Shopping List</li>
-            <li>Hamburger Menu</li>
+            <li className="projects-div">
+              <h3>Fortnite LFG</h3>
+            </li>
+            <li className="projects-div">
+              <h3>SimpleWeather</h3>
+            </li>
+            <li className="projects-div">
+              <h3>Hamburger Menu</h3>
+            </li>
+            <li className="projects-div">
+              <h3>myInventory</h3>
+            </li>
           </ul>
         </div>
         <div className="section">
