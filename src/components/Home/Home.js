@@ -18,7 +18,7 @@ class Home extends React.Component {
         <div className="section">
           <div className="container">
             <h2>Core Compentencies</h2>
-            <ul className="flex-parent-section">
+            <ul className="flex-list">
               <li>
                 <div className="core-div">
                   <img src={reactjs} alt="reactjs" className="core-img"></img>
@@ -49,7 +49,7 @@ class Home extends React.Component {
         <div className="section projects-section">
           <div className="container">
             <h2>Projects</h2>
-            <ul className="flex-parent-section">
+            <ul className="flex-list">
               <a href="/">
                 <li className="projects-div">
                   <h3>Fortnite LFG</h3>
@@ -60,14 +60,19 @@ class Home extends React.Component {
               <a href="/">
                 <li className="projects-div">
                   <h3>Hamburger Menu</h3>
-                  <p>A simple, reusable navigation menu for both desktop and mobile views</p>
+                  <p>Simple, reusable navigation menu for both desktop and mobile views</p>
                   <p className="project-tech">React</p>
                 </li>
               </a>
 
               <li className="projects-div">
                 <h3>myInventory</h3>
-                <p>A catalog app that allows users to manage inventory</p>
+                <p>Catalog app that allows users to manage inventory</p>
+                <p className="project-tech">React</p>
+              </li>
+              <li className="projects-div">
+                <h3>Trello Board</h3>
+                <p>Mockup of the popular todo application, Trello</p>
                 <p className="project-tech">React</p>
               </li>
             </ul>
@@ -77,7 +82,6 @@ class Home extends React.Component {
           <div className="container">
             <h2>Things I Know</h2>
             <ul className="tech-section">
-              <li className="tech-li">Fortnite LFG</li>
               <li>Node</li>
               <li>React</li>
               <li>Redux</li>
@@ -91,7 +95,11 @@ class Home extends React.Component {
             </ul>
           </div>
         </div>
+        <div className="section">
+          <div className="container">
 
+          </div>
+        </div>
       </div>
 
     )

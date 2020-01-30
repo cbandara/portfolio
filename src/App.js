@@ -16,6 +16,7 @@ class App extends React.Component {
     sideDrawerOpen: false
   }
   drawerToggleClickHandler = () => {
+    console.log("=======clicked")
     this.setState((prevState) => {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
       // This is to prevent batch updates messing up !state
@@ -39,7 +40,7 @@ class App extends React.Component {
           <Menu drawerClickHandler={this.drawerToggleClickHandler} ></Menu>
           <div className="flex-wrapper-2">
             <header>
-              <SideDrawer show={this.state.sideDrawerOpen} />
+              <SideDrawer show={this.state.sideDrawerOpen} drawerClickHandler={this.drawerToggleClickHandler} />
               {backdrop}
             </header>
             <main className="content">

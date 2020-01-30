@@ -12,7 +12,7 @@ class SideDrawer extends React.Component {
     return (
       <nav className={drawerClasses.join(' ')}>
         <ul>
-          <li><Link to={'/'}>Home</Link></li>
+          <li onClick={this.props.drawerClickHandler}><Link to={'/'}>Home</Link></li>
           <li><Link to={'/about'}>About</Link></li>
           <li><a href="/">Projects</a></li>
           <li><a href="/">Contact</a></li>
