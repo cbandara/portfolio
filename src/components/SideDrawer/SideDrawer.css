@@ -8,11 +8,11 @@
   justify-content: flex-start;
   padding: 5rem 50px;
   margin-top: 0;
+  font-family: 'Inconsolata', cursive;
 }
 
 .side-drawer li {
   margin: 1rem 0;
-  font-family: 'Inconsolata', cursive;
 }
 
 .side-drawer a {
@@ -33,6 +33,7 @@
     padding: 0px 0px;
     position: fixed;
     left: 0;
+    box-shadow: 1px 0px 7px rgba(0,0,0, 0.5);
   }
 }
 

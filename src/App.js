@@ -1,8 +1,12 @@
 import React from 'react';
-import Menu from './components/Menu/Menu';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Home from './components/Home/Home';
+import About from './components/About/About';
+import Menu from './components/Menu/Menu';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+
 import './App.css';
 
 
@@ -29,18 +33,25 @@ class App extends React.Component {
       backdrop = <Backdrop click={this.backdropClickHandler}></Backdrop>
     }
     return (
-      <div className="flex-wrapper">
-        <Menu drawerClickHandler={this.drawerToggleClickHandler} ></Menu>
-        <div className="flex-wrapper-2">
-          <header>
-            <SideDrawer show={this.state.sideDrawerOpen} />
-            {backdrop}
-          </header>
-          <main className="content">
-            <Home></Home>
-          </main>
+
+      <BrowserRouter>
+        <div className="flex-wrapper">
+          <Menu drawerClickHandler={this.drawerToggleClickHandler} ></Menu>
+          <div className="flex-wrapper-2">
+            <header>
+              <SideDrawer show={this.state.sideDrawerOpen} />
+              {backdrop}
+            </header>
+            <main className="content">
+              <Switch>
+                <Route exact path="/" component={Home}></Route>
+                <Route path="/about" component={About}></Route>
+              </Switch>
+
+            </main>
+          </div>
         </div>
-      </div>
+      </BrowserRouter>
     );
   }
 }
