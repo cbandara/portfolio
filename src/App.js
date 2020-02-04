@@ -4,6 +4,7 @@ import Backdrop from './components/Backdrop/Backdrop';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Menu from './components/Menu/Menu';
+import Work from './components/Work/Work';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
@@ -47,6 +48,7 @@ class App extends React.Component {
               <Switch>
                 <Route exact path="/" component={Home}></Route>
                 <Route path="/about" component={About}></Route>
+                <Route path="/work" component={Work}></Route>
               </Switch>
 
             </main>

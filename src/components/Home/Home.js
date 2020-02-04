@@ -48,7 +48,7 @@ class Home extends React.Component {
         </div>
         <div className="section projects-section">
           <div className="container">
-            <h2>Projects</h2>
+            <h2>Work</h2>
             <ul className="flex-list">
               <a href="/">
                 <li className="projects-div">
@@ -64,18 +64,13 @@ class Home extends React.Component {
                   <p className="project-tech">React</p>
                 </li>
               </a>
-
               <li className="projects-div">
                 <h3>myInventory</h3>
                 <p>Catalog app that allows users to manage inventory</p>
                 <p className="project-tech">React</p>
               </li>
-              <li className="projects-div">
-                <h3>Trello Board</h3>
-                <p>Mockup of the popular todo application, Trello</p>
-                <p className="project-tech">React</p>
-              </li>
             </ul>
+            <button className="work-button">All Work</button>
           </div>
         </div>
         <div className="section">
@@ -95,9 +90,10 @@ class Home extends React.Component {
             </ul>
           </div>
         </div>
-        <div className="section">
+        <div className="section contact-section">
           <div className="container">
-
+            <h2>Get in Touch</h2>
+            <button>Contact Me</button>
           </div>
         </div>
       </div>

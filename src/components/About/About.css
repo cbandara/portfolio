@@ -8,6 +8,8 @@
 
 .about-banner {
   height: 350px;
-  background-image: url("../../img/hero-img.jpg");
+  background-image: url("../../img/about.jpg");
   background-size: cover;
+  background-position: center center;
+  
 }

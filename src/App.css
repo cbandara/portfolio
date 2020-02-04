@@ -5,6 +5,14 @@ body {
   font-size: 18px;
 }
 
+button {
+  padding: 8px 40px;
+  font-size: 26px;
+  background-color: #347fc4;
+
+  color: white;
+  border-color: #989FCE;
+}
 
 h1 {
   margin: 0;
@@ -46,7 +54,7 @@ header {
 }
 
 .flex-wrapper-2 {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
 }
 
@@ -60,6 +68,11 @@ header {
   max-height: 400px;
 }
 
+.contact-section {
+  background-color: black;
+  color: white;
+}
+
 
 @media (max-width: 768px) {
   .content {
@@ -70,6 +83,6 @@ header {
 
 @media (min-width: 769px) {
   .flex-wrapper-2{
-    padding-left: 202px;
+    padding-left: 189px;
   }
 }

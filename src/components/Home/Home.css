@@ -43,6 +43,13 @@ a {
 
 }
 
+.work-button {
+  background-color: #906FCA;
+  color: white;
+  border-color: #553096;
+  border-width: 3px;
+}
+
 .projects-div h3 {
   font-size: 24px;
   font-weight: 400;
