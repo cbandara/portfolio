@@ -2,10 +2,81 @@
   background: #667db6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   color: white;
+  height: 100vh;
+}
+
+.work-background {
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  position: absolute;
+  
 }
 
 .work-heading {
   color: white;
+  margin-bottom: 40px;
+}
+
+.project-img {
+  width: 600px;
+}
+
+.work-flex-div {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.project-button {
+  background-color: #906FCA;
+  color: white;
+  border-color: #553096;
+  border-width: 3px;
+  text-decoration: none;
+  width: 250px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+.project-button:hover,
+.project-button:active {
+  color: #1a1a1a;
+  cursor: pointer;
+  border-color: #906FCA;
+  background-color: #553096;
+}
+
+.work-description-ext {
+  text-align: left;
+}
+
+@media (max-width: 400px) {
+  .flex-list li {
+    padding: 0px 0px;
+  }
+  .project-img {
+    width: 250px;
+  }
+}
+
+@media (min-width: 401px) {
+  .project-img {
+    width: 350px;
+  }
+}
+
+@media (min-width: 800px) {
+  .project-img {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .project-img {
+    width: 700px;
+  }
 }

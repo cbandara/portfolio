@@ -27,8 +27,8 @@
   width: 300px;
   color: white;
   border-style: solid;
-  border-width: 7px;
-  border-radius: 10px;
+  border-width: 3px;
+  border-radius: 3px;
   border-color: rgba(38, 38, 38, 0.88);
   margin: 10px;
   margin-bottom: 25px;
@@ -47,8 +47,18 @@ a {
   background-color: #906FCA;
   color: white;
   border-color: #553096;
-  border-width: 3px;
+  border-width: 2px;
+  text-decoration: none;
 }
+
+.work-button:hover,
+.work-button:active {
+  color: #1a1a1a;
+  cursor: pointer;
+  border-color: #906FCA;
+  background-color: #553096;
+}
+
 
 .projects-div h3 {
   font-size: 24px;

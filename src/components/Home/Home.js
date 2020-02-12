@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 import reactjs from '../../img/reactjs.png'
 import nodeimg from '../../img/nodejs.png'
@@ -50,27 +51,30 @@ class Home extends React.Component {
           <div className="container">
             <h2>Work</h2>
             <ul className="flex-list">
-              <a href="/">
+              <Link to={"/work/fortnitelfg"}>
                 <li className="projects-div">
                   <h3>Fortnite LFG</h3>
                   <p>Helps connect players together and form squads for the Fortnite Game</p>
                   <p className="project-tech">jQuery</p>
                 </li>
-              </a>
-              <a href="/">
+              </Link>
+              <Link to={"work/hamburger-menu"}>
                 <li className="projects-div">
                   <h3>Hamburger Menu</h3>
                   <p>Simple, reusable navigation menu for both desktop and mobile views</p>
                   <p className="project-tech">React</p>
                 </li>
-              </a>
-              <li className="projects-div">
-                <h3>myInventory</h3>
-                <p>Catalog app that allows users to manage inventory</p>
-                <p className="project-tech">React</p>
-              </li>
+              </Link>
+              <Link to={"work/myinventory"}>
+                <li className="projects-div">
+                  <h3>myInventory</h3>
+                  <p>Catalog app that allows users to manage inventory</p>
+                  <p className="project-tech">React</p>
+                </li>
+              </Link>
             </ul>
-            <button className="work-button">All Work</button>
+            <Link to={'/work'}><button className="work-button">All Work</button></Link>
+
           </div>
         </div>
         <div className="section">
@@ -93,7 +97,7 @@ class Home extends React.Component {
         <div className="section contact-section">
           <div className="container">
             <h2>Get in Touch</h2>
-            <button>Contact Me</button>
+            <a href="mailto:mail@charuthabandara@gmail.com"><button className="work-button">Contact Me</button></a>
           </div>
         </div>
       </div>
