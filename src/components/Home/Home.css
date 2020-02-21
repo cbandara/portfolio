@@ -23,7 +23,7 @@
 
 .projects-div {
   background-color: rgba(0, 0, 0, 0.71);
-  height: 200px;
+  height: 300px;
   width: 300px;
   color: white;
   border-style: solid;
@@ -38,26 +38,27 @@ a {
   text-decoration: none;
 }
 
-.projects-div:hover {
+/* .projects-div:hover {
   background-color: rgba(0, 0, 0, 0.6);
 
-}
+} */
 
-.work-button {
-  background-color: #906FCA;
+/* .work-button { */
+  /* background-color: #906FCA;
   color: white;
   border-color: #553096;
   border-width: 2px;
   text-decoration: none;
+  padding-top: 35px;
 }
 
 .work-button:hover,
 .work-button:active {
-  color: #1a1a1a;
+  color: white;
   cursor: pointer;
   border-color: #906FCA;
-  background-color: #553096;
-}
+  background-color: rgba(0, 0, 0, 0.6);
+} */
 
 
 .projects-div h3 {

@@ -51,27 +51,19 @@ class Home extends React.Component {
           <div className="container">
             <h2>Work</h2>
             <ul className="flex-list">
-              <Link to={"/work/fortnitelfg"}>
-                <li className="projects-div">
-                  <h3>Fortnite LFG</h3>
-                  <p>Helps connect players together and form squads for the Fortnite Game</p>
-                  <p className="project-tech">jQuery</p>
-                </li>
-              </Link>
-              <Link to={"work/hamburger-menu"}>
-                <li className="projects-div">
-                  <h3>Hamburger Menu</h3>
-                  <p>Simple, reusable navigation menu for both desktop and mobile views</p>
-                  <p className="project-tech">React</p>
-                </li>
-              </Link>
-              <Link to={"work/myinventory"}>
-                <li className="projects-div">
-                  <h3>myInventory</h3>
-                  <p>Catalog app that allows users to manage inventory</p>
-                  <p className="project-tech">React</p>
-                </li>
-              </Link>
+              <li className="projects-div">
+                <h3>Fortnite LFG</h3>
+                <p className="work-preview">Helps connect players together and form squads for the Fortnite Game</p>
+                <p className="project-tech">jQuery</p>
+                <Link to={'/work/fortnitelfg'}><button className="work-button">More Info</button></Link>
+              </li>
+              <li className="projects-div">
+                <h3>Hamburger Menu</h3>
+                <p className="work-preview">Simple, reusable navigation menu for both desktop and mobile views</p>
+                <p className="project-tech">React</p>
+                <Link to={'/work/hamburger-menu'}><button className="work-button">More Info</button></Link>
+              </li>
+
             </ul>
             <Link to={'/work'}><button className="work-button">All Work</button></Link>
 

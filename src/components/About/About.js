@@ -26,10 +26,14 @@ class About extends React.Component {
               the persistently changing environment of web development by studying new languages.
               In order to hone in my skills after college I attended a full-stack web development
               bootcamp called Thinkful. There, I acquired up-to-date development skills
-              that I can use to create powerful web applications.</p>
+              that I can use to create powerful web applications. I look forward to working on a team of other great developers
+              so I can gain valuable insights about the industry.</p>
             <p className="about-me">My stack currently consists of Node.js to build back end API's, MongoDB
             for the databases, and React.js for the front end application. Accompanied with modern CSS and
               web accessibility practices, I have a well rounded skillset that makes me an asset to any development team.</p>
+            <p className="about-me">Outside of web development my hobbies include aquariums, motorcycles and hiking. I currently
+            maintain 8 aquariums and I find it very relaxing. When it comes to adrenaline, I ride a Kawasaki Ninja 650 but I plan on switching to a Yamaha soon.
+            Hiking is somewhere in the middle of this. You never know what's around the corner. Getting lost always makes for a good story too.</p>
 
           </div>
         </div>

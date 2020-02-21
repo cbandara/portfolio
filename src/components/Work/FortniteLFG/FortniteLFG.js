@@ -11,8 +11,8 @@ class FortniteLFG extends React.Component {
             <h1 className="work-heading">FortniteLFG</h1>
             <img src={fortnitelfg} alt="fortnitelfg" className="project-img"></img>
             <div className="work-flex-div">
-              <a href="https://github.com/cbandara/FortNiteLFG" target="_blank"><button className="project-button">Code</button></a>
-              <a href="https://fierce-tundra-18202.herokuapp.com" target="_blank"><button className="project-button">Live App</button></a>
+              <a href="https://github.com/cbandara/FortNiteLFG" target="_blank" rel="noopener noreferrer"><button className="project-button">Code</button></a>
+              <a href="https://fierce-tundra-18202.herokuapp.com" target="_blank" rel="noopener noreferrer"><button className="project-button">Live App</button></a>
             </div>
             <h2>Description</h2>
             <p className="work-description-ext">FortiniteLFG is an app I made to help players find other people to play with in the popular online game, Fortnite.

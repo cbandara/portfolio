@@ -10,8 +10,8 @@ class SimpleWeather extends React.Component {
             <h1 className="work-heading">SimpleWeather</h1>
             {/* <img src={hotcold} alt="hot and cold" className="project-img"></img> */}
             <div className="work-flex-div">
-              <a href="https://github.com/cbandara/SimpleWeather" target="_blank"><button className="project-button">Code</button></a>
-              <a href="https://guarded-refuge-84830.herokuapp.com/" target="_blank"><button className="project-button">Live App</button></a>
+              <a href="https://github.com/cbandara/SimpleWeather" target="_blank" rel="noopener noreferrer"><button className="project-button">Code</button></a>
+              <a href="https://guarded-refuge-84830.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button className="project-button">Live App</button></a>
             </div>
             <h2>Description</h2>
             <p className="work-description-ext"> Hot and Cold is a game made in React that asks the user to guess a number.

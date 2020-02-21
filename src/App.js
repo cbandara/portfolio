@@ -22,7 +22,6 @@ class App extends React.Component {
     sideDrawerOpen: false
   }
   drawerToggleClickHandler = () => {
-    console.log("=======clicked")
     this.setState((prevState) => {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
       // This is to prevent batch updates messing up !state
