@@ -6,7 +6,7 @@ class MyInventory extends React.Component {
   render() {
     return (
       <div className="work-background">
-        <div className="section">
+        <section className="section">
           <div className="container">
             <h1 className="work-heading">myInventory</h1>
             <img src={myinventory} alt="myinventory" className="project-img"></img>
@@ -23,7 +23,7 @@ class MyInventory extends React.Component {
               was created with React and Redux.
           </p>
           </div>
-        </div>
+        </section>
       </div>
     )
   }

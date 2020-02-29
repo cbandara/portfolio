@@ -8,7 +8,7 @@ class About extends React.Component {
         <div className="about-banner">
 
         </div>
-        <div className="section">
+        <section className="section">
           <div className="container">
             <h1 className="about-heading">About Me</h1>
             <p className="about-me">My first experience with making websites came out of necessity.
@@ -31,12 +31,11 @@ class About extends React.Component {
             <p className="about-me">My stack currently consists of Node.js to build back end API's, MongoDB
             for the databases, and React.js for the front end application. Accompanied with modern CSS and
               web accessibility practices, I have a well rounded skillset that makes me an asset to any development team.</p>
-            <p className="about-me">Outside of web development my hobbies include aquariums, motorcycles and hiking. I currently
-            maintain 8 aquariums and I find it very relaxing. When it comes to adrenaline, I ride a Kawasaki Ninja 650 but I plan on switching to a Yamaha soon.
-            Hiking is somewhere in the middle of this. You never know what's around the corner. Getting lost always makes for a good story too.</p>
-
+            <p className="about-me">Outside of web development my hobbies include aquariums and hiking. I currently
+            maintain 8 aquariums and I find it very relaxing. Hiking is somewhere in the middle of this. You never know what's around the
+            corner. Getting lost always makes for a good story too.</p>
           </div>
-        </div>
+        </section>
 
       </div>
     )

@@ -16,38 +16,38 @@ class Home extends React.Component {
             <h2 className="subheading">Full-Stack Web Developer</h2>
           </div>
         </div>
-        <div className="section">
+        <section className="section">
           <div className="container">
             <h2>Core Compentencies</h2>
             <ul className="flex-list">
               <li>
                 <div className="core-div">
-                  <img src={reactjs} alt="reactjs" className="core-img"></img>
+                  <img src={reactjs} alt="reactjs" className="core-img" />
                   <p>React</p>
                 </div>
               </li>
               <li>
                 <div className="core-div">
-                  <img src={nodeimg} alt="nodejs" className="core-img"></img>
+                  <img src={nodeimg} alt="nodejs" className="core-img" />
                   <p>Node</p>
                 </div>
               </li>
               <li>
                 <div className="core-div">
-                  <img src={jqueryimg} alt="jquery" className="core-img"></img>
+                  <img src={jqueryimg} alt="jquery" className="core-img" />
                   <p>jQuery</p>
                 </div>
               </li>
               <li>
                 <div className="core-div">
-                  <img src={mongoimg} alt="mongodb" className="core-img"></img>
+                  <img src={mongoimg} alt="mongodb" className="core-img" />
                   <p>MongoDB</p>
                 </div>
               </li>
             </ul>
           </div>
-        </div>
-        <div className="section projects-section">
+        </section>
+        <section className="section projects-section">
           <div className="container">
             <h2>Work</h2>
             <ul className="flex-list">
@@ -63,13 +63,11 @@ class Home extends React.Component {
                 <p className="project-tech">React</p>
                 <Link to={'/work/hamburger-menu'}><button className="work-button">More Info</button></Link>
               </li>
-
             </ul>
             <Link to={'/work'}><button className="work-button">All Work</button></Link>
-
           </div>
-        </div>
-        <div className="section">
+        </section>
+        <section className="section">
           <div className="container">
             <h2>Things I Know</h2>
             <ul className="tech-section">
@@ -85,13 +83,13 @@ class Home extends React.Component {
               <li>Adobe Illustrator</li>
             </ul>
           </div>
-        </div>
-        <div className="section contact-section">
+        </section>
+        <section className="section contact-section">
           <div className="container">
             <h2>Get in Touch</h2>
             <a href="mailto:mail@charuthabandara@gmail.com"><button className="work-button">Contact Me</button></a>
           </div>
-        </div>
+        </section>
       </div>
 
     )

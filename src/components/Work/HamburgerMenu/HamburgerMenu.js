@@ -6,7 +6,7 @@ class HamburgerMenu extends React.Component {
   render() {
     return (
       <div className="work-background">
-        <div className="section">
+        <section className="section">
           <div className="container">
             <h1 className="work-heading">HamburgerMenu</h1>
             <img src={hamburgerpic} alt="hamburger-menu" className="project-img"></img>
@@ -26,7 +26,7 @@ class HamburgerMenu extends React.Component {
           </p>
             <div className="v-spacer-short"></div>
           </div>
-        </div>
+        </section>
       </div>
     )
   }

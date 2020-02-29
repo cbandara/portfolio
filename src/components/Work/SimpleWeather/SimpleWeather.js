@@ -5,10 +5,10 @@ class SimpleWeather extends React.Component {
   render() {
     return (
       <div className="work-background">
-        <div className="section">
+        <section className="section">
           <div className="container">
             <h1 className="work-heading">SimpleWeather</h1>
-            {/* <img src={hotcold} alt="hot and cold" className="project-img"></img> */}
+
             <div className="work-flex-div">
               <a href="https://github.com/cbandara/SimpleWeather" target="_blank" rel="noopener noreferrer"><button className="project-button">Code</button></a>
               <a href="https://guarded-refuge-84830.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button className="project-button">Live App</button></a>
@@ -20,7 +20,7 @@ class SimpleWeather extends React.Component {
           </p>
             <div className="v-spacer-short"></div>
           </div>
-        </div>
+        </section>
       </div>
     )
   }

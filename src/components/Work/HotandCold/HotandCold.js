@@ -6,7 +6,7 @@ class HotandCold extends React.Component {
   render() {
     return (
       <div className="work-background">
-        <div className="section">
+        <section className="section">
           <div className="container">
             <h1 className="work-heading">Hot and Cold</h1>
             <img src={hotcold} alt="hot and cold" className="project-img"></img>
@@ -18,10 +18,10 @@ class HotandCold extends React.Component {
             <p className="work-description-ext"> Hot and Cold is a game made in React that asks the user to guess a number.
             Depending on the number given and the correct number, the game will respond with a hint.
             The hints will change the closer or further you are to the number. Once you guess the correct number, you can play again but
-             the number will change.
+             the number will change. This app is built with React and Redux.
           </p>
           </div>
-        </div>
+        </section>
       </div>
     )
   }

@@ -23,6 +23,7 @@ class App extends React.Component {
   }
   drawerToggleClickHandler = () => {
     this.setState((prevState) => {
+      window.scrollTo(0, 0);
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
       // This is to prevent batch updates messing up !state
     });

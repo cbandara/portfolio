@@ -38,28 +38,6 @@ a {
   text-decoration: none;
 }
 
-/* .projects-div:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-
-} */
-
-/* .work-button { */
-  /* background-color: #906FCA;
-  color: white;
-  border-color: #553096;
-  border-width: 2px;
-  text-decoration: none;
-  padding-top: 35px;
-}
-
-.work-button:hover,
-.work-button:active {
-  color: white;
-  cursor: pointer;
-  border-color: #906FCA;
-  background-color: rgba(0, 0, 0, 0.6);
-} */
-
 
 .projects-div h3 {
   font-size: 24px;
@@ -77,8 +55,15 @@ a {
 }
 
 .flex-list li {
-  padding: 20px 30px;
+  padding: 0px 0px;
 }
+
+@media (min-width: 401px) {
+  .flex-list li {
+    padding: 20px 30px;
+  }
+}
+
 
 .projects-section {
   background: #673AB7;  /* fallback for old browsers */

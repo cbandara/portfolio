@@ -65,6 +65,7 @@ header {
 .content {
   text-align: center;
   width: 100%;
+  justify-content: center;
 }
 
 .hero-img {
@@ -75,14 +76,6 @@ header {
 .contact-section {
   background-color: black;
   color: white;
-}
-
-
-@media (max-width: 768px) {
-  .content {
-    padding-left: 0%;
-    justify-content: center;
-  }
 }
 
 @media (min-width: 769px) {
