@@ -70,7 +70,7 @@
 
 .project-button:hover,
 .project-button:active {
-  color: #1a1a1a;
+  color: white;
   cursor: pointer;
   border-color: #906FCA;
   background-color: #553096;
