@@ -12,6 +12,7 @@ class Menu extends React.Component {
             <HamburgerToggleButton click={this.props.drawerClickHandler}></HamburgerToggleButton></div>
 
           <div className="spacer"></div>
+
         </div>
       </div>
     )
