@@ -87,7 +87,7 @@ class Home extends React.Component {
         <section className="section contact-section">
           <div className="container">
             <h2>Get in Touch</h2>
-            <a href="mailto:mail@charuthabandara@gmail.com"><button className="work-button">Contact Me</button></a>
+            <a href="mailto:mail@charuthabandara@gmail.com" target="_blank" rel="noopener noreferrer"><button className="work-button">Contact Me</button></a>
           </div>
         </section>
       </div>
