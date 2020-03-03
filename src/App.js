@@ -1,5 +1,5 @@
 import React from 'react';
-
+import HttpsRedirect from 'react-https-redirect';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Home from './components/Home/Home';
