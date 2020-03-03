@@ -40,31 +40,32 @@ class App extends React.Component {
       backdrop = <Backdrop click={this.backdropClickHandler}></Backdrop>
     }
     return (
-
-      <BrowserRouter>
-        <div className="flex-wrapper">
-          <Menu drawerClickHandler={this.drawerToggleClickHandler} ></Menu>
-          <div className="flex-wrapper-2">
-            <header>
-              <SideDrawer show={this.state.sideDrawerOpen} drawerClickHandler={this.drawerToggleClickHandler} />
-              {backdrop}
-            </header>
-            <main className="content">
-              <Switch>
-                <Route exact path="/" component={Home}></Route>
-                <Route exact path="/about" component={About}></Route>
-                <Route exact path="/work" component={Work}></Route>
-                <Route exact path="/contact" component={Contact}></Route>
-                <Route exact path="/work/simpleweather" component={SimpleWeather}></Route>
-                <Route exact path="/work/fortnitelfg" component={FortniteLFG}></Route>
-                <Route exact path="/work/hamburger-menu" component={HamburgerMenu}></Route>
-                <Route exact path="/work/myinventory" component={MyInventory}></Route>
-                <Route exact path="/work/hotcold" component={HotandCold}></Route>
-              </Switch>
-            </main>
+      <HttpsRedirect>
+        <BrowserRouter>
+          <div className="flex-wrapper">
+            <Menu drawerClickHandler={this.drawerToggleClickHandler} ></Menu>
+            <div className="flex-wrapper-2">
+              <header>
+                <SideDrawer show={this.state.sideDrawerOpen} drawerClickHandler={this.drawerToggleClickHandler} />
+                {backdrop}
+              </header>
+              <main className="content">
+                <Switch>
+                  <Route exact path="/" component={Home}></Route>
+                  <Route exact path="/about" component={About}></Route>
+                  <Route exact path="/work" component={Work}></Route>
+                  <Route exact path="/contact" component={Contact}></Route>
+                  <Route exact path="/work/simpleweather" component={SimpleWeather}></Route>
+                  <Route exact path="/work/fortnitelfg" component={FortniteLFG}></Route>
+                  <Route exact path="/work/hamburger-menu" component={HamburgerMenu}></Route>
+                  <Route exact path="/work/myinventory" component={MyInventory}></Route>
+                  <Route exact path="/work/hotcold" component={HotandCold}></Route>
+                </Switch>
+              </main>
+            </div>
           </div>
-        </div>
-      </BrowserRouter>
+        </BrowserRouter>
+      </HttpsRedirect>
     );
   }
 }
