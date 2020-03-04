@@ -11,6 +11,11 @@
   margin-left: 1rem;
 }
 
+.menu__navigation {
+  background-color: black;
+  padding: 10px;
+}
+
 .menu__logo a {
   color: white;
   text-decoration: none;

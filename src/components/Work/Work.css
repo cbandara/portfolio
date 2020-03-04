@@ -22,6 +22,11 @@
   width: 250px;
 }
 
+.project-img-main {
+  width: 250px;
+  padding-top: 10px;
+}
+
 .work-flex-div {
   display: flex;
   margin: auto;
@@ -40,7 +45,7 @@
   background-color: rgba(0, 0, 0, 0.7);
   text-align: center;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 16px;
   width: 150px;
 }
