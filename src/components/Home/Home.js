@@ -64,7 +64,7 @@ class Home extends React.Component {
                 <Link to={'/work/hamburger-menu'}><div className="work-button">More Info</div></Link>
               </li>
             </ul>
-            <Link to={'/work'}><button className="work-button">All Work</button></Link>
+            <Link to={'/work'}><div className="work-button">All Work</div></Link>
           </div>
         </section>
         <section className="section">
@@ -87,7 +87,7 @@ class Home extends React.Component {
         <section className="section contact-section">
           <div className="container">
             <h2>Get in Touch</h2>
-            <a href="mailto:mail@charuthabandara@gmail.com" target="_blank" rel="noopener noreferrer"><button className="work-button">Contact Me</button></a>
+            <a href="mailto:mail@charuthabandara@gmail.com" target="_blank" rel="noopener noreferrer"><div className="work-button">Contact Me</div></a>
           </div>
         </section>
       </div>
