@@ -51,17 +51,17 @@ class Home extends React.Component {
           <div className="container">
             <h2>Work</h2>
             <ul className="flex-list">
-              <li className="projects-div">
+              <li className="projects-div-home">
                 <h3>Fortnite LFG</h3>
                 <p className="work-preview">Helps connect players together and form squads for the Fortnite Game</p>
                 <p className="project-tech">jQuery</p>
-                <Link to={'/work/fortnitelfg'}><button className="work-button">More Info</button></Link>
+                <Link to={'/work/fortnitelfg'}><div className="work-button">More Info</div></Link>
               </li>
-              <li className="projects-div">
+              <li className="projects-div-home">
                 <h3>Hamburger Menu</h3>
                 <p className="work-preview">Simple, reusable navigation menu for both desktop and mobile views</p>
                 <p className="project-tech">React</p>
-                <Link to={'/work/hamburger-menu'}><button className="work-button">More Info</button></Link>
+                <Link to={'/work/hamburger-menu'}><div className="work-button">More Info</div></Link>
               </li>
             </ul>
             <Link to={'/work'}><button className="work-button">All Work</button></Link>

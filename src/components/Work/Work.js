@@ -28,6 +28,7 @@ class Work extends React.Component {
                 <h3>Hamburger Menu</h3>
                 <p className="work-preview">Simple, reusable navigation menu for both desktop and mobile views</p>
                 <p className="project-tech">React</p>
+
                 <a href="https://github.com/cbandara/hamburger-menu" target="_blank" rel="noopener noreferrer"><div className="work-button">Code</div></a>
                 <a href="https://pacific-waters-32549.herokuapp.com/" target="_blank" rel="noopener noreferrer" ><div className="work-button">Live App</div></a>
                 <Link to={'/work/hamburger-menu'}><div className="work-button">More Info</div></Link>
